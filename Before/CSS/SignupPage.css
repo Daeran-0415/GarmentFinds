@@ -1,51 +1,85 @@
+body{
+    background-color: #e3dad4;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
 h1{
-    font-size:  60px;
+    font-size:  50px;
     text-align: center;
+    padding-top: 15px;
     margin: 0%;
     
 }
 p{
-    font-size:15px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin:0%;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
 }
-a{
-    font-size:15px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin:0%;
-}
-
-img{
-    max-width: 40%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.para-2{
+    text-align: center;
+    font-size: 15px;
+    margin-top: -10px;
 }
 div.Sign_Up {
-    margin-top: 30px;
-  text-align: center;
+    width: 360px;
+    height: 620px;
+    margin: auto;
+    background-color: white;
+    border-radius: 3px;
+}
+form{
+    width: 300px;
+    margin-left: 20px;
+}
+form label{
+    display:flex;
+    margin-top: 20px;
+    font-size:15px;
+}
+form input{
+    width: 100%;
+    padding: 7px;
+    border:none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
 }
 input[type="text"] {
     padding: 5px 5px 5px 5px;
-    width:45%;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     display: block;
     margin : 0 auto;
-    border-radius: 30px;
-    
+    border-radius: 30px;  
+}
+input[type="email"] {
+    padding: 5px 5px 5px 5px;
+    display: block;
+    margin : 0 auto;
+    border-radius: 30px;  
+}
+input[type="password"] {
+    padding: 5px 5px 5px 5px;
+    display: block;
+    margin : 0 auto;
+    border-radius: 30px;  
 }
 input[type=button].SignUp{
+    width: 320px;
     border: 0;
-    line-height: 2;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    padding: 0 20px;
-    font-size: 13px;
-    text-align: center;
-    margin-bottom: 15px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: #e3dad4;
     color: rgb(255, 255, 255);
+    font-size: 20px;
+    line-height: 1px;
+    padding: 0 20px;
+   
+    text-align: center;
+   
+   
     text-shadow: 1px 1px 1px #000;
     border-radius: 10px;
-    background-color: #e3dad4;
+
     background-image: linear-gradient(to top left,
                                       rgba(0, 0, 0, .2),
                                       rgba(0, 0, 0, .2) 30%,

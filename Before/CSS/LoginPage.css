@@ -1,3 +1,4 @@
+
 h1{
     font-size:  60px;
     text-align: center;
@@ -21,17 +22,30 @@ img{
     margin-left: auto;
     margin-right: auto;
 }
-div.topnav {
-    margin-top: 30px;
-  text-align: center;
+div.login_box {
+    margin: auto;
+    text-align: center;
 }
-input[type="text"] {
+form input{
+    width: 60%;
+    border:none;
+    border: 1px solid gray;
+    border-radius: 30px;
+    outline: none;
+}
+input[type="email"] {
     padding: 5px 5px 5px 5px;
-    width:45%;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     display: block;
     margin : 0 auto;
-    border-radius: 30px;
+   
+}
+input[type="password"] {
+    padding: 5px 5px 5px 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: block;
+    margin : 0 auto;
+   
     
 }
 .Login{
@@ -39,12 +53,12 @@ input[type="text"] {
     line-height: 2;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     padding: 0 20px;
-    font-size: 13px;
+    font-size: 15px;
     text-align: center;
     margin-bottom: 15px;
+    margin-top: 15px;
     color: rgb(255, 255, 255);
     text-shadow: 1px 1px 1px #000;
-    border-radius: 10px;
     background-color: #e3dad4;
     background-image: linear-gradient(to top left,
                                       rgba(0, 0, 0, .2),
