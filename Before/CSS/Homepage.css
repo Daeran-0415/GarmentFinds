@@ -22,9 +22,6 @@ p{
 a{
     color:black;
 }
-a:hover{
-    color:skyblue;
-}
 img.profile{
     float: left;
     border-radius: 50%;
