@@ -5,7 +5,7 @@
 }
 
 body{
-    background: #a0ac96;
+    background: #e3dad4;
     font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -39,7 +39,7 @@ body{
 }
 
 .team .team_member h3{
-    color: #93af7c;
+    color: #000000;
     font-size: 26px;
     margin-top: 50px;
 }
