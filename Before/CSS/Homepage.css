@@ -19,6 +19,12 @@ p{
     margin:0%;
     float: left;
 }
+a{
+    color:black;
+}
+a:hover{
+    color:skyblue;
+}
 img.profile{
     float: left;
     border-radius: 50%;

@@ -20,6 +20,12 @@ p{
     font-size: 15px;
     margin-top: -10px;
 }
+a{
+    color:blue;
+}
+a:hover{
+    color:skyblue;
+}
 div.Sign_Up {
     width: 360px;
     height: 620px;
