@@ -13,6 +13,14 @@ body{
     margin-top: 10%
 }
 
+.ourteam{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    margin-top: 5%;
+    font-size: 400%;
+}
+
+
 .wrapper h1{
     font-family: 'Allura', cursive;
     font-size: 52px;
@@ -25,17 +33,19 @@ body{
     text-align: center;
     width: auto;
     justify-content: center;
+
 }
 
 .team .team_member{
     background-color: white;
-    margin: 5px;
+    margin: 8px;
     margin-bottom: 50px;
     width: 300px;
     padding: 20px;
     line-height: 20px;
     color: #8e8b8b;
     position: relative;
+    padding-bottom: 50px;
 }
 
 .team .team_member h3{
@@ -49,4 +59,16 @@ body{
     font-size: 12px;
     text-transform: uppercase;
     margin: 12px 0;
+}
+
+img.team_image{
+    transform: translateX(-50%);
+    position: absolute;
+    top: -50px;
+    height: 100px;
+    border-radius: 50%;
+    width: 100px;
+    margin-right: 7px;
+    margin-bottom: 15px;
+    background: #fff;
 }
