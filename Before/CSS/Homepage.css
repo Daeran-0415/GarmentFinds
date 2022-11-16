@@ -25,7 +25,7 @@ h1{
 .menu-bar ul li
 {
     width: 215px;
-    margin:15px;
+    margin:10px;
     font-size: 20px;
 }
 .menu-bar ul li a
@@ -83,15 +83,17 @@ i.fa-regular{
 }
 input[type="text"] {
     padding: 5px 5px 5px 5px;
-    width:90%;
+    width:50%;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     display: block;
-    margin-left: 25%;
+    margin-left: 5%;
 
 }
 .search{
     border-radius: 25px;
-    width:90%;
+    height: 50px;
+    margin-top: 5px;
+    margin-bottom:5px;
    
 }
 img.New1,.New2{
