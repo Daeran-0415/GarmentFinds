@@ -1,7 +1,33 @@
+*
+{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+.menu-bar
+{
+    background: rgb(83, 79, 22); 
+    text-align: center;
+    
+}
+.menu-bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+.menu-bar ul
 h1{
     font-size:  60px;
     text-align: center;
     margin: 0%;
+}
+.menu-bar ul li
+{
+    width:350px;
+    margin:15px;
+    font-size: 20px;
+
 }
 h2{
     font-size:20px;
@@ -39,14 +65,16 @@ i.fa-regular{
 }
 input[type="text"] {
     padding: 5px 5px 5px 5px;
-    width:95%;
+    width:90%;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     display: block;
-    margin : 0 auto;
+    margin-left: 25%;
+
 }
 .search{
     border-radius: 25px;
     width:90%;
+   
 }
 img.New1,.New2{
 margin:15px;
