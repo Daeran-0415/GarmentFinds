@@ -54,6 +54,16 @@ p{
     margin:0%;
     float: left;
 }
+a{
+    color:black;
+}
+hr{
+   border-top:3px solid;
+}
+div.profile{
+ margin-top: 15px;
+ margin-bottom: 65px;
+}
 img.profile{
     float: left;
     border-radius: 50%;
@@ -61,9 +71,8 @@ img.profile{
     margin-right: 7px;
     margin-bottom: 15px;
 }
-
-i.fa-solid {
-    font-size:30px;
+i.fa-solid{
+    font-size: 30px;
     float:right; 
     margin-left:40px;
     margin-right:25px;
@@ -89,7 +98,9 @@ img.New1,.New2{
 margin:15px;
 border-radius: 50px;
 display:inline;
+height:250px;
 width:300px;
+
 }
 img.Top1{
     margin:15px;
