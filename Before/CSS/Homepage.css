@@ -22,6 +22,9 @@ p{
 a{
     color:black;
 }
+hr{
+   border-top:3px solid;
+}
 div.profile{
  margin-top: 15px;
 }
@@ -57,7 +60,9 @@ img.New1,.New2{
 margin:15px;
 border-radius: 50px;
 display:inline;
+height:250px;
 width:300px;
+
 }
 img.Top1{
     margin:15px;
