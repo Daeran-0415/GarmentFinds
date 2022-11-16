@@ -22,6 +22,9 @@ p{
 a{
     color:black;
 }
+div.profile{
+ margin-top: 15px;
+}
 img.profile{
     float: left;
     border-radius: 50%;
