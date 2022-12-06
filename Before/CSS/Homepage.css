@@ -9,40 +9,7 @@
     margin:0;
     box-sizing:border-box;
 }
-.menu-bar
-{
-    background: rgb(83, 79, 22); 
-    text-align: center;
-    
-}
-.menu-bar ul
-{
-    display: inline-flex;
-    list-style: none;
-    color: #fff;
-}
-.menu-bar ul
-h1{
-    font-size:  60px;
-    text-align: center;
-    margin: 0%;
-}
-.menu-bar ul li
-{
-    width: 215px;
-    margin:10px;
-    font-size: 20px;
-}
-.menu-bar ul li a
-{
-    text-decoration: none;
-    color: #fff;
-}
-.active, .menu-bar ul li:hover
-{
-        background:rgb(112, 94, 34);
-        border-radius: 3px;
-}
+
 h2{
     font-size:20px;
     margin:0%;
@@ -55,7 +22,6 @@ h3{
 }
 p{
     font-size:15px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin:0%;
     float: left;
 }
@@ -89,7 +55,6 @@ i.fa-regular{
 input[type="text"] {
     padding: 5px 5px 5px 5px;
     width:50%;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     display: block;
     margin-left: 5%;
 
