@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #e3dad4;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.wrapper{
+    margin-top: 10%
+}
+
+.ourteam{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    margin-top: 5%;
+    font-size: 400%;
+}
+
+
+.wrapper h1{
+    font-family: 'Allura', cursive;
+    font-size: 52px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.team{
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+
+}
+
+.team .team_member{
+    background-color: white;
+    margin: 8px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    color: #8e8b8b;
+    position: relative;
+    padding-bottom: 50px;
+}
+
+.team .team_member h3{
+    color: #000000;
+    font-size: 26px;
+    margin-top: 50px;
+}
+
+.team .team_member p.role{
+    color: black;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 12px 0;
+}
+
+img.team_image{
+    transform: translateX(-50%);
+    position: absolute;
+    top: -50px;
+    height: 100px;
+    border-radius: 50%;
+    width: 100px;
+    margin-right: 7px;
+    margin-bottom: 15px;
+    background: #fff;
+}
+.menu-bar
+{
+    background: rgb(83, 79, 22); 
+    text-align: center;
+    
+}
+.menu-bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+.menu-bar ul li
+{
+    width: 215px;
+    margin:10px;
+    font-size: 20px;
+}
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color: #fff;
+}
+.active, .menu-bar ul li:hover
+{
+        background:rgb(112, 94, 34);
+        border-radius: 3px;
+}
+hr{
+   border-top:3px solid;
+}
+i.fa-solid{
+    font-size: 30px;
+    float:right; 
+    margin-left:40px;
+    margin-right:25px;
+}
+i.fa-regular{
+    font-size:30px; 
+    float:right;
+}
+input[type="text"] {
+    padding: 5px 5px 5px 5px;
+    width:50%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: block;
+    margin-left: 5%;
+
+}
+.search{
+    border-radius: 25px;
+    height: 50px;
+    margin-top: 5px;
+    margin-bottom:5px;
+   
+}
+
