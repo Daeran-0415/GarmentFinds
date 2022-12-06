@@ -66,7 +66,7 @@ hr{
    border-top:3px solid;
 }
 div.profile{
- margin-top: 15px;
+ margin-top: 40px;
  margin-bottom: 65px;
 }
 img.profile{
@@ -97,8 +97,8 @@ input[type="text"] {
 .search{
     border-radius: 25px;
     height: 50px;
-    margin-top: 5px;
-    margin-bottom:5px;
+    margin-top: 50px;
+    margin-bottom: 50px;
    
 }
 img.New1,.New2{
@@ -113,9 +113,4 @@ img.Top1{
     margin:15px;
     display:inline;
     width:150px;  
-}
-
-@media screen and (max-width:500px){
-
-
 }

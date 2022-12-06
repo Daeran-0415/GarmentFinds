@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+<meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/Homepage.css">
+    <script src="https://kit.fontawesome.com/6d9a059933.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>GarmentFinds</title>
-</head>
 <body>
     <div class="menu-bar">
     <ul>
@@ -20,22 +19,67 @@
 <li><a href="Homepage Shorts.html">Shorts</a></li>
 <li><a href="Homepage Jacket.html">Jacket</a></li>
 
-<input type="text" class="search" placeholder="Search" name="Search"> 
-
 <li><a href="about-us.html">About Us</a></li>
 </ul>
 </div>
 
 
+<nav class = "navbar navbar-expand-lg navbar-light bg-white py-4 fixed-top">
+    <div class = "container">
+        <a class = "navbar-brand d-flex justify-content-between align-items-center order-lg-0" href = "index.html">
+            <img src = "images/shopping-bag-icon.png" alt = "site icon">
+            <span class = "text-uppercase fw-lighter ms-2">Attire</span>
+        </a>
+
+        <div class = "order-lg-2 nav-btns">
+            <button type = "button" class = "btn position-relative">
+                <i class = "fa fa-shopping-cart"></i>
+                <span class = "position-absolute top-0 start-100 translate-middle badge bg-primary">5</span>
+            </button>
+            <button type = "button" class = "btn position-relative">
+                <i class = "fa fa-heart"></i>
+                <span class = "position-absolute top-0 start-100 translate-middle badge bg-primary">2</span>
+            </button>
+        </div>
+
+        <button class = "navbar-toggler border-0" type = "button" data-bs-toggle = "collapse" data-bs-target = "#navMenu">
+            <span class = "navbar-toggler-icon"></span>
+        </button>
+
+        <div class = "collapse navbar-collapse order-lg-1" id = "navMenu">
+            <ul class = "navbar-nav mx-auto text-center">
+                <li class = "nav-item px-2 py-2">
+                    <a class = "nav-link text-uppercase text-dark" href = "#header">home</a>
+                </li>
+                <li class = "nav-item px-2 py-2">
+                    <a class = "nav-link text-uppercase text-dark" href = "#collection">Men</a>
+                </li>
+                <li class = "nav-item px-2 py-2">
+                    <a class = "nav-link text-uppercase text-dark" href = "#special">Women</a>
+                </li>
+                <li class = "nav-item px-2 py-2">
+                    <a class = "nav-link text-uppercase text-dark" href = "#blogs">Shirt</a>
+                </li>
+                <li class = "nav-item px-2 py-2">
+                    <a class = "nav-link text-uppercase text-dark" href = "#about">Shorts</a>
+                </li>
+                <li class = "nav-item px-2 py-2 border-0">
+                    <a class = "nav-link text-uppercase text-dark" href = "#popular">Jacket</a>
+                </li>
+                <li class = "nav-item px-2 py-2 border-0">
+                    <a class = "nav-link text-uppercase text-dark" href = "#popular">About Us</a>
+                </li>
+        </div>
+    </div>
+</nav>
  <div class="profile">
     
 <img src="Images/profile pic.jpg" class="profile">
 <br>
 <br>
-<a href="LoginPage.html"><i class="fa-solid fa-bars"></i></a>
-<i class="fa-regular fa-bell"></i>
 <h2>Hi, Daniel</h2>
 <p style="font-size:10px;">Let's go shopping today!</p>
+<input type="text" class="search" placeholder="Search" name="Search"> 
 
 </div> 
 <hr>
