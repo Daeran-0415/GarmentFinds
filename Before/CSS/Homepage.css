@@ -9,44 +9,6 @@
     margin:0;
     box-sizing:border-box;
 }
-<<<<<<< HEAD
-=======
-.menu-bar
-{
-    background: rgb(83, 79, 22); 
-    text-align: center;
-    
-}
-.menu-bar ul
-{
-    display: inline-flex;
-    list-style: none;
-    color: #fff;
-}
-.menu-bar ul
-h1{
-    font-size:  60px;
-    text-align: center;
-    margin: 0%;
-}
-.menu-bar ul li
-{
-    width: 215px;
-    margin:10px;
-    font-size: 20px;
-}
-.menu-bar ul li a
-{
-    text-decoration: none;
-    color: #fff;
-}
- .menu-bar ul li:hover
-{
-        background:rgb(112, 94, 34);
-        border-radius: 3px;
-}
-
->>>>>>> Daniel
 h2{
     font-size:20px;
     margin:0%;
@@ -107,7 +69,6 @@ img.Top1{
     display:inline;
     width:150px;  
 }
-<<<<<<< HEAD
 nav{
     background-color: #e3dad4;
     
@@ -123,7 +84,7 @@ body{
 
 /* button */
 .bg-primary{
-    background-color: var(--pink)!important;
+    background-color: #e3dad4!important;
 }
 
 .btn:not(.nav-btns button){
@@ -134,14 +95,14 @@ body{
     border: 1px solid rgb(85, 85, 85);
 }
 .btn:not(.nav-btns button):hover{
-    background-color: var(--pink);
+    background-color: #e3dad4;
     color: #fff;
-    border-color: var(--pink);
+    border-color: #e3dad4;
 }
 
 /* text color */
 .text-primary{
-    color: var(--pink)!important;
+    color: #e3dad4!important;
 }
 
 .navbar{
@@ -156,14 +117,13 @@ body{
     font-family: var(--lg-font);
 }
 .nav-link:hover{
-    color: var(--pink)!important;
+    color: #e3dad4!important;
 }
 .nav-item{
     border-bottom: 0.5px solid rgba(0, 0, 0, 0.05);
-=======
+}
 #header{
     background: url(../Images/image2.png) top/cover no-repeat;
->>>>>>> Daniel
 }
 .btn:not(.nav-btns button){
     background-color: #fff;
@@ -186,11 +146,6 @@ body{
 }
 .carousel-item btn:hover{
     border-color: #e3dad4!important;
-}
-
-title h2::before{
-    position: absolute;
-    content:;
 }
 
 .title h2::before{
