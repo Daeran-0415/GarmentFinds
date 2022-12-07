@@ -21,6 +21,7 @@ h3{
 }
 p{
     font-size:15px;
+    margin:0%;
     float: left;
 }
 a{
@@ -178,6 +179,7 @@ body{
     border-radius: 50%;
 }
 
+/* special */
 .special-img span{
     top: 20px;
     right: 20px;
@@ -196,7 +198,7 @@ body{
             transform: scale(1.2);
 }
 
-
+/* offers */
 #offers{
     background: url(../images/offer_img.jpg) center/cover no-repeat;
 }
@@ -214,7 +216,52 @@ body{
     border-color: transparent!important;
 }
 
-
+/* about */
 #about{
     background-color: rgba(179, 179, 179, 0.05);
+}
+
+/* newsletter */
+#newsletter{
+    background-color: rgba(179, 179, 179, 0.05);
+}
+#newsletter p{
+    max-width: 600px;
+}
+#newsletter .input-group{
+    max-width: 500px;
+}
+#newsletter .form-control{
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+#newsletter .btn{
+    background-color: var(--pink);
+    color: #fff;
+    border-color: var(--pink);
+}
+#newsletter .btn:hover{
+    background-color: #000;
+    border-color: #000;
+}
+
+/* footer */
+footer .brand{
+    font-family: var(--lg-font);
+    letter-spacing: 2px;
+}
+footer a{
+    -webkit-transition: color 0.3s ease;
+    -o-transition: color 0.3s ease;
+    transition: color 0.3s ease;
+}
+footer a:hover{
+    color: var(--pink)!important;
+}
+
+/* media queries */
+@media(min-width: 992px){
+    .nav-item{
+        border-bottom: none;
+    }
 }
