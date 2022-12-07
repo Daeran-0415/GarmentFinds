@@ -2,31 +2,87 @@
 :root{
     --lg-font: 'Kaisei Tokumin', serif;
     --sm-font: 'Poppins', sans-serif;
+    --pink: #e5345b;
 }
-*
-{
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.wrapper{
+    margin-top: 10%
+}
+
+.ourteam{
+
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 100px;
+    font-size: 400%;
+}
+
+
+.wrapper h1{
+
+    font-size: 52px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.team{
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+
+}
+
+.team .team_member{
+    background-color: white;
+    margin: 8px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    color: #8e8b8b;
+    position: relative;
+    padding-bottom: 50px;
+}
+
+.team .team_member h3{
+    color: #000000;
+    font-size: 26px;
+    margin-top: 50px;
+}
+
+.team .team_member p.role{
+    color: black;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 12px 0;
+}
+
+img.team_image{
+    transform: translateX(-50%);
+    position: absolute;
+    top: -50px;
+    height: 100px;
+    border-radius: 50%;
+    width: 100px;
+    margin-right: 7px;
+    margin-bottom: 15px;
+    background: #fff;
+}
+*{
     padding:0;
     margin:0;
     box-sizing:border-box;
 }
-h2{
-    font-size:20px;
-    margin:0%;
-    margin-top:px;
-}
-h3{
-    font-size:25px;
-    margin-top:4%; 
-    
-}
-p{
-    font-size:15px;
-    margin:0%;
-    float: left;
-}
-a{
-    color:black;
-}
+
 hr{
    border-top:3px solid;
 }
@@ -98,12 +154,12 @@ body{
 .btn:not(.nav-btns button):hover{
     background-color: #e3dad4;
     color: #fff;
-    border-color: #e3dad4;
+    color:var(--pink)!important;
 }
 
 /* text color */
 .text-primary{
-    color: #e3dad4!important;
+    color:var(--pink)!important;
 }
 
 .navbar{
@@ -118,7 +174,7 @@ body{
     font-family: var(--lg-font);
 }
 .nav-link:hover{
-    color: #e3dad4!important;
+    color:var(--pink)!important;
 }
 .nav-item{
     border-bottom: 0.5px solid rgba(0, 0, 0, 0.05);
@@ -136,7 +192,7 @@ body{
 .btn:not(.nav.btns button):hover{
     background-color: #e3dad4;
     color:#fff;
-    border-color: #e3dad4;
+    color:var(--pink)!important;
 }
 .carousel-inner h1{
     font-size: 60px;
@@ -146,7 +202,7 @@ body{
     border-color: #fff!important;
 }
 .carousel-item btn:hover{
-    border-color: #e3dad4!important;
+    color:var(--pink)!important;
 }
 
 .title h2::before{
@@ -164,9 +220,9 @@ body{
 
 
 .active-filter-btn{
-    background-color: #e3dad4!important;
+    color:var(--pink)!important;
     color: #fff!important;
-    border-color: #e3dad4!important;
+    color:var(--pink)!important;
 }
 .filter-button-group .btn:hover{
     color: #fff!important;

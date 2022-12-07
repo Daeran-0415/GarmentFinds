@@ -1,26 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-<link rel="stylesheet" href="CSS/about-us.css">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="CSS/Homepage.css">
+<script src="https://kit.fontawesome.com/6d9a059933.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<title>GarmentFinds</title>
 <head>
     <meta charset="UTF-8">
     <title>GarmentFindsTeam</title>
 </head>
 <body>
-    <div class="menu-bar">
-        <ul>
-    <li ><a href="Homepage.html">Home</a></li>
-    <li><a href="Homepage Men.html">Men</a></li>
-    <li><a href="Homepage Women.html">Women</a></li>
-    <li><a href="Homepage Shirt.html">Shirt</a></li>
-    <li><a href="Homepage Pants.html">Pants</a></li>
-    <li><a href="Homepage Shorts.html">Shorts</a></li>
-    <li><a href="Homepage Jacket.html">Jacket</a></li>
-    
-    <input type="text" class="search" placeholder="Search" name="Search"> 
-    
-    <li class="active"><a href="about-us.html">About Us</a></li>
-    </ul>
-    </div>  
+    <nav class="navbar navbar-expand-1g">
+        <nav class = "navbar navbar-expand-lg navbar-light py-4 fixed-top">
+            <div class = "container">
+                <a class = "navbar-brand d-flex justify-content-between align-items-center order-lg-0" href = "#">
+                <img src="IMAGES/logo.jpg" class="logo">
+            </a>
+                <div class = "order-lg-2 nav-btns">
+                    <button type = "button" class = "btn position-relative">
+                        <i class = "fa fa-shopping-cart"></i>
+                        <span class = "position-absolute top-0 start-100 translate-middle badge bg-primary">5</span>
+                    </button>
+                    <button type = "button" class = "btn position-relative">
+                        <i class = "fa fa-truck-fast"></i>
+                        <span class = "position-absolute top-0 start-100 translate-middle badge bg-primary">3</span>
+                    </button>
+                    <button type = "button" class = "btn position-relative">
+                        <i class = "fa fa-heart"></i>
+                        <span class = "position-absolute top-0 start-100 translate-middle badge bg-primary">2</span>
+                    </button>
+                    <button type = "button" class = "btn position-relative">
+                        <i class = "fa fa-caret-down"></i>
+                        <span class = "position-absolute top-0 start-100 translate-middle badge bg-primary"></span>
+                    </button>
+                </div>
+                <div class="sub-menu-wrap">
+                    <div class="sub-menu">
+                        <div class="user-info">
+                            
+                        </div>
+                    </div>
+                </div>
+        
+                <button class = "navbar-toggler border-0" type = "button" data-bs-toggle = "collapse" data-bs-target = "#navMenu">
+                    <span class = "navbar-toggler-icon"></span>
+                </button>
+        
+                <div class = "collapse navbar-collapse order-lg-1" id = "navMenu">
+                    <ul class = "navbar-nav mx-auto text-center">
+                        <li class = "nav-item px-2 py-2">
+                            <a class = "nav-link text-uppercase text-dark" href="Homepage.html">home</a>
+                        </li>
+                        <li class = "nav-item px-2 py-2">
+                            <a class = "nav-link text-uppercase text-dark" href="Homepage Men.html">Men</a>
+                        </li>
+                        <li class = "nav-item px-2 py-2">
+                            <a class = "nav-link text-uppercase text-dark" href="Homepage Women.html">Women</a>
+                        </li>
+                        <li class = "nav-item px-2 py-2">
+                            <a class = "nav-link text-uppercase text-dark" href="Homepage Shirt.html">Shirt</a>
+                        </li>
+                        <li class = "nav-item px-2 py-2">
+                            <a class = "nav-link text-uppercase text-dark" href="Homepage Pants.html">Shorts</a>
+                        </li>
+                        <li class = "nav-item px-2 py-2 border-0">
+                            <a class = "nav-link text-uppercase text-dark"  href="Homepage Jacket.html">Jacket</a>
+                        </li>
+                        <li class = "nav-item px-2 py-2 border-0">
+                            <a class = "nav-link text-uppercase text-dark" href = "about-us.html">About Us</a>
+                        </li>
+                </div>
+            </div>
+        </nav>
 <h1 class="ourteam">Our Team</h1>
 
 <div class="wrapper">
@@ -63,4 +116,9 @@
         </div>
     </div>
 </div>
+<script src="script/jquery-3.6.1.js"></script>
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+<script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+<script src="script/script.js"></script>
 </body>
+</html>
