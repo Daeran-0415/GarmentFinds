@@ -11,6 +11,85 @@
     box-sizing: border-box;
 }
 
+/* log-in page*/
+
+div.login_box{
+    font-size:15px;
+    margin: auto;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: white;
+    width: 50%;
+    padding-bottom: 50px;
+    border-radius: 3px;
+  
+}
+h1.login{
+    font-size:60px !important;
+    margin: 1%!important;
+}
+a.login{
+    color: blue;
+}
+a.login:hover{
+    color:skyblue;
+}
+
+img.login{
+    max-width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+form.login input{
+    width: 60%;
+    border:none;
+    border: 1px solid gray;
+    border-radius: 30px;
+    outline: none;
+}
+label.login{
+    text-align: left!important;
+    font-size: 20px;
+    margin-left: 21%;
+}
+input.login[type="email"] {
+    padding: 10px 5px 5px 5px;
+    display: block;
+    margin : 0 auto;
+}
+input[type="password"].login {
+    padding: 5px 5px 5px 5px;
+    display: block;
+    margin : 0 auto;
+}
+#Login{
+    width: 10%;
+    border: 0;
+    line-height: 2;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px #000;
+    background-color: #e3dad4;
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+#Login:hover {
+    background-color:#d7cfcf;
+}
+#Login:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
 
 /* sign-up*/
 
