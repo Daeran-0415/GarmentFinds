@@ -1,66 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
-<link rel="stylesheet" href="CSS/about-us.css">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="CSS/Homepage.css">
+<script src="https://kit.fontawesome.com/6d9a059933.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<title>GarmentFinds</title>
 <head>
     <meta charset="UTF-8">
     <title>GarmentFindsTeam</title>
 </head>
-<body>
-    <div class="menu-bar">
-        <ul>
-    <li ><a href="HomepageGuest.html">Home</a></li>
-    <li><a href="HomepageGuest Men.html">Men</a></li>
-    <li><a href="HomepageGuest Women.html">Women</a></li>
-    <li><a href="HomepageGuest Shirt.html">Shirt</a></li>
-    <li><a href="HomepageGuest Pants.html">Pants</a></li>
-    <li><a href="HomepageGuest Shorts.html">Shorts</a></li>
-    <li><a href="HomepageGuest Jacket.html">Jacket</a></li>
-    
-    <input type="text" class="search" placeholder="Search" name="Search"> 
-    
-    <li class="active"><a href="about-us guest.html">About Us</a></li>
-    </ul>
-    </div>  
-<h1 class="ourteam">Our Team</h1>
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/Homepage.css">
+    <script src="https://kit.fontawesome.com/6d9a059933.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>GarmentFinds</title>
+<body style="background-color: #e3dad4;">
+<!-- navbar -->
 
-<div class="wrapper">
-
-    <div class="team">
-        <div class="team_member">
-            <img src="Images/DANIEL.jpg" class="team_image" alt="DANIEL_IMG">
-            <h3>Daniel Aeron Jan Daño</h3>
-            <p class="role">TEAM LEADER</p>
-            <p>Organizer</p>
-            <p>Log-in page Layout</p>
-            <p>and Design</p>
-            <p>Homepage Layout</p>
-            <p>and Design</p>
-           
-        </div>
-        <div class="team_member">
-            <img src="Images/TONNETTE.jpg" class="team_image" alt="TONNETTE_IMG">
-            <h3>Mary Antoinnette Bautista</h3>
-            <p class="role">TEAM MEMBER</p>
-            <p>Log-in page Layout</p>
-            <p>Homepage Layout</p>
-            <p>About-us Designer</p>
+<nav class="navbar navbar-expand-1g navbar-dark p-md-3">
+    <nav class = "navbar navbar-expand-lg navbar-light py-4 fixed-top">
+        <div class = "container">
+            <a class = "navbar-brand d-flex justify-content-between align-items-center order-lg-0" href = "HomepageGuest.html">
+            <img src="IMAGES/logo.jpg" class="logo">
+        </a>
+            <div class = "order-lg-2 nav-btns">
+                <button type = "button" class = "btn position-relative">
+                    <i class = "fa fa-shopping-cart"></i>
+                    <span class = "position-absolute top-0 start-100 translate-middle badge bg-secondary">5</span>
+                </button>
+                <button type = "button" class = "btn position-relative">
+                    <i class = "fa fa-truck-fast"></i>
+                    <span class = "position-absolute top-0 start-100 translate-middle badge  bg-secondary">3</span>
+                </button>
+                <button type = "button" class = "btn position-relative">
+                    <i class = "fa fa-heart"></i>
+                    <span class = "position-absolute top-0 start-100 translate-middle badge  bg-secondary">2</span>
+                </button>
+    
+                <a id="nav" class="position-relative" href="#" role="button" data-bs-toggle = "dropdown" aria-expanded="false"> 
+                     <button type = "button" class = "btn   position-relative">
+                <i class = "fa fa-caret-down"></i>
+                    <span class = "position-absolute top-0 start-100 translate-middle badge bg-primary"></span>
         
+                    <ul class = "dropdown-menu dropdown-menu-lg-end" >
+                        <li><hr class="dropdown-divider"></li>
+                        <li  class = " px-1 py-2"><a>Profile</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="LoginPage.html">Log In</a></li>
+                        <li ><hr class="dropdown-divider"></li>
+                        <li  class = " px-1 py-2">Categories</li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item px-1 py-2" href="HomepageGuest Men.html">Men</a></li>
+                        <li ><a class="dropdown-item px-1 py-2" href="HomepageGuest Women.html">Women</a></li>
+                        <li ><a class="dropdown-item px-1 py-2" href="HomepageGuest Shirt.html">Shirt</a></li>
+                        <li><a class="dropdown-item px-1 py-2" href="HomepageGuest Shorts.html">Shorts</a></li>
+                        <li><a class="dropdown-item px-1 py-2" href="HomepageGuest Pants.html">Pants</a></li>
+                        <li><a class="dropdown-item px-1 py-2" href="HomepageGuest Jacket.html">Jacket</a></li>
+                        <li><a class="dropdown-item px-1 py-2" href="about-us guest.html">About Us</a></li>
+                    </ul>
+                </button></a>
+            </div>
+            <div class="sub-menu-wrap">
+                <div class="sub-menu">
+                    <div class="user-info">
+                        
+                    </div>
+                </div>
+            </div>
+    
+            <button class = "navbar-toggler border-0" type = "button" data-bs-toggle = "collapse" data-bs-target = "#navMenu">
+                <span class = "navbar-toggler-icon"></span>
+            </button>
+    
+            <div class = "collapse navbar-collapse order-lg-1" id = "navMenu">
+                <ul class = "navbar-nav mx-auto text-center">
+                    <li class = "nav-item px-1 py-2">
+                        <a class = "nav-link text-uppercase text-dark" href = "#header">home</a>
+                    </li>
+                    <li class = "nav-item px-2 py-2">
+                        <a class = "nav-link text-uppercase text-dark" href = "#collection">collection</a>
+                    </li>
+                    <li class = "nav-item px-2 py-2">
+                        <a class = "nav-link text-uppercase text-dark" href = "#top brands">top brands</a>
+                    </li>
+                    <li class = "nav-item px-2 py-2">
+                        <a class = "nav-link text-uppercase text-dark" href = "#popular">popular</a>
+                    </li>
+                    <li class = "nav-item px-2 py-2">
+                        <a class = "nav-link text-uppercase text-dark" href = "#newsletter">newsletter</a>
+                    </li>
+                    </ul>
+            </div>
         </div>
-        <div class="team_member">
-            <img src="Images/AU.jpg" class="team_image" alt="AU_IMG">
-            <h3>AU Bumanglag</h3>
-            <p class="role">TEAM MEMBER</p>
-            <p>Categories Designer</p>
-            <p>Homepage Designer</p>
-            <p>Logo Designer</p>
+    </nav>
+    </nav>
+    <!-- end of navbar -->
+
+<section id = "top brands" class = "py-5">
+    <div class = "container">
+        <div class = "title text-center">
+            <h1 class = "position-relative d-inline-block">Our Team</h1>
         </div>
-        <div class="team_member">           
-            <img src="Images/JR.jpg" class="team_image" alt="DANIEL_IMG">
-            <h3>John Rey De Torres</h3>
-            <p class="role">TEAM MEMBER</p>
-            <p>Logo Designer</p>
-            <p>Presentor</p>
+            <div class="wrapper">
+
+                <div class="team">
+                    <div class="team_member">
+                        <img src="Images/DANIEL.jpg" class="team_image" alt="DANIEL_IMG">
+                        <h3>Daniel Aeron Jan Daño</h3>
+                        <p class="role">TEAM LEADER</p>
+                        <p>Organizer</p>
+                        <p>Log-in page Layout</p>
+                        <p>and Design</p>
+                        <p>Homepage Layout</p>
+                        <p>and Design</p>
+                       
+                    </div>
+                    <div class="team_member">
+                        <img src="Images/TONNETTE.jpg" class="team_image" alt="TONNETTE_IMG">
+                        <h3>Mary Antoinnette Bautista</h3>
+                        <p class="role">TEAM MEMBER</p>
+                        <p>Log-in page Layout</p>
+                        <p>Homepage Layout</p>
+                        <p>About-us Designer</p>
+                    
+                    </div>
+                    <div class="team_member">
+                        <img src="Images/AU.jpg" class="team_image" alt="AU_IMG">
+                        <h3>AU Bumanglag</h3>
+                        <p class="role">TEAM MEMBER</p>
+                        <p>Categories Designer</p>
+                        <p>Homepage Designer</p>
+                        <p>Logo Designer</p>
+                    </div>
+                    <div class="team_member">           
+                        <img src="Images/JR.jpg" class="team_image" alt="DANIEL_IMG">
+                        <h3>John Rey De Torres</h3>
+                        <p class="role">TEAM MEMBER</p>
+                        <p>Logo Designer</p>
+                        <p>Presentor</p>
+                    </div>
+                </div>
         </div>
-    </div>
+
+</section>
 </div>
+
+
+<script src="script/jquery-3.6.1.js"></script>
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+<script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+<script src="script/script.js"></script>
 </body>
+</html>

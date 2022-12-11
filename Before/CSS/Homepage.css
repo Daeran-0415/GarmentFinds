@@ -236,6 +236,8 @@ a.signup:link{
         text-align: center;
 
 }
+
+
 /*about us*/
 .wrapper{
     margin-top: 10%;
@@ -307,54 +309,7 @@ img.team_image{
     margin:0;
     box-sizing:border-box;
 }
-/* profile */
-hr{
-   border-top:3px solid;
-}
-div.profile{
- margin-top: 130px;
- margin-bottom: 65px;
- margin-left: 50px;
-}
-img.profile{
-    float: left;
-    border-radius: 50%;
-    width:100px;
-    margin-right: 7px;
-    margin-bottom: 15px;
-}
-p.profile{
-    font-size: large!important;
-}
-i.fa-solid{
-    font-size: 30px;
-    float:right; 
-    margin-left:40px;
-    margin-right:25px;
-}
-i.fa-regular{
-    font-size:30px; 
-    float:right;
-}
-input[type="text"] {
-    padding: 5px 5px 5px 5px;
-    width:90%;
-
-    margin-left: 5%;
-
-}
-input.search{
-    border-radius: 25px;
-    height: 50px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-   
-}
-img.Top1{
-    margin:15px;
-    display:inline;
-    width:150px;  
-}
+/*homepage*/
 
 body{
     font-family: var(--sm-font);
@@ -362,7 +317,10 @@ body{
 
 /* button */
 .bg-primary{
-    background-color: blue!important;
+    background-color: var(--pink)!important;
+}
+.bg-secondary{
+    background-color:var(--pink)!important;
 }
 .btn:not(.nav-btns button){
     background-color: #fff;
@@ -406,9 +364,23 @@ body{
     color: rgb(85, 85, 85);
 }
 .dropdown-menu{
+    max-width: 100px;
    max-height: 200px;
    overflow-y: scroll;
+   -webkit-box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
+           box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
 }
+.dropdown-item:hover{
+    color:var(--pink)!important;
+}
+.dropdown-item{
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.05);
+}
+img.profile{
+    border-radius: 50%;
+    width: 30px;
+}
+
 /* header */
 #header{
     background: url(../Images/image2.png) top/cover no-repeat;
@@ -435,13 +407,26 @@ body{
 .carousel-item btn:hover{
     color:var(--pink)!important;
 }
+ input[type="text"].search {
+    padding: 5px 5px 5px 5px;
+    width:40%;
 
+
+}
+.search{
+    border-radius: 25px;
+    height: 50px;
+    margin:0%;
+   
+}
+
+/* title */
 .title h2::before{
     position: absolute;
     content: "";
     width: 4px;
     height: 50px;
-    background-color: #e3dad4;
+    background-color: var(--pink);
     left: -20px;
     top: 50%;
     -webkit-transform: translateY(-50%);
@@ -449,7 +434,7 @@ body{
             transform: translateY(-50%);
 }
 
-
+/* collection */
 .active-filter-btn{
     color:var(--pink)!important;
     color: #fff!important;
@@ -465,43 +450,22 @@ body{
     height: 46px;
     border-radius: 50%;
 }
-
-/* special */
-.special-img span{
-    top: 20px;
-    right: 20px;
-}
-.special-list .btn{
-    padding: 8px 20px!important;
-}
-.special-img img{
-    -webkit-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-}
-.special-img:hover img{
-    -webkit-transform: scale(1.2);
-        -ms-transform: scale(1.2);
-            transform: scale(1.2);
+.collection-img img{
+    height:300px;
 }
 
-/* offers */
-#offers{
-    background: url(../images/offer_img.jpg) center/cover no-repeat;
+/* top-brands */
+img.Top1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
 }
-#offers .row{
-    min-height: 60vh;
+div.Top{
+   background-color:#e3dad4;
 }
-.offers-content span{
-    font-size: 28px;
-}
-.offers-content h2{
-    font-size: 60px;
-    font-family: var(--lg-font);
-}
-.offers-content .btn{
-    border-color: transparent!important;
-}
+
+
 
 /* newsletter */
 #newsletter{
@@ -511,7 +475,7 @@ body{
     max-width: 600px;
 }
 #newsletter .input-group{
-    max-width: 500px;
+    max-width: 400px;
 }
 #newsletter .form-control{
     border-top-left-radius: 25px;
