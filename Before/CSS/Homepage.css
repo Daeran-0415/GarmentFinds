@@ -29,6 +29,30 @@ a.login:hover{
     color:skyblue;
 }
 
+/* log-in page*/
+
+div.login_box{
+    font-size:15px;
+    margin: auto;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: white;
+    width: 50%;
+    padding-bottom: 50px;
+    border-radius: 3px;
+  
+}
+h1.login{
+    font-size:60px !important;
+    margin: 1%!important;
+}
+a.login{
+    color: blue;
+}
+a.login:hover{
+    color:skyblue;
+}
+
 img.login{
     max-width: 40%;
     display: block;
