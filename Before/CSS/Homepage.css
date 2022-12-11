@@ -5,12 +5,6 @@
     --pink: #e5345b;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 /* log-in page*/
 
 div.login_box{
@@ -218,7 +212,7 @@ a.signup:link{
         text-align: center;
 
 }
-/*sign-up end*/
+/*about us*/
 .wrapper{
     margin-top: 10%;
     margin-right: 30px;
@@ -289,7 +283,7 @@ img.team_image{
     margin:0;
     box-sizing:border-box;
 }
-
+/* profile */
 hr{
    border-top:3px solid;
 }
@@ -325,7 +319,7 @@ input[type="text"] {
     margin-left: 5%;
 
 }
-.search{
+input.search{
     border-radius: 25px;
     height: 50px;
     margin-top: 50px;
@@ -337,15 +331,7 @@ img.Top1{
     display:inline;
     width:150px;  
 }
-nav{
-    background-color: #e3dad4;
-    
-}
-:root{
-    --lg-font: 'Kaisei Tokumin', serif;
-    --sm-font: 'Poppins', sans-serif;
-    --pink: #e5345b;
-}
+
 body{
     font-family: var(--sm-font);
 }
@@ -353,9 +339,6 @@ body{
 /* button */
 .bg-primary{
     background-color: blue!important;
-}
-a.logout{
-    color: rgb(85, 85, 85);
 }
 .btn:not(.nav-btns button){
     background-color: #fff;
@@ -375,9 +358,12 @@ a.logout{
     color:var(--pink)!important;
 }
 
+/* navbar */
 .navbar{
+    background-color: #e3dad4;
     -webkit-box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
             box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
+          
 }
 .navbar-brand img{
     width: 100px;
@@ -392,6 +378,14 @@ a.logout{
 .nav-item{
     border-bottom: 0.5px solid rgba(0, 0, 0, 0.05);
 }
+#nav{
+    color: rgb(85, 85, 85);
+}
+.dropdown-menu{
+   max-height: 200px;
+   overflow-y: scroll;
+}
+/* header */
 #header{
     background: url(../Images/image2.png) top/cover no-repeat;
 }
@@ -483,11 +477,6 @@ a.logout{
 }
 .offers-content .btn{
     border-color: transparent!important;
-}
-
-/* about */
-#about{
-    background-color: rgba(179, 179, 179, 0.05);
 }
 
 /* newsletter */
