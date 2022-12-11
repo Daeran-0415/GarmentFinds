@@ -9,10 +9,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>GarmentFinds</title>
 <body>
-    <nav class="navbar navbar-expand-1g">
+<!-- navbar -->
+
+    <nav class="navbar navbar-expand-1g navbar-dark p-md-3">
 <nav class = "navbar navbar-expand-lg navbar-light py-4 fixed-top">
     <div class = "container">
-        <a class = "navbar-brand d-flex justify-content-between align-items-center order-lg-0" href = "#">
+        <a class = "navbar-brand d-flex justify-content-between align-items-center order-lg-0" href = "Homepage.html">
         <img src="IMAGES/logo.jpg" class="logo">
     </a>
         <div class = "order-lg-2 nav-btns">
@@ -28,10 +30,20 @@
                 <i class = "fa fa-heart"></i>
                 <span class = "position-absolute top-0 start-100 translate-middle badge bg-primary">2</span>
             </button>
-            <button type = "button" class = "btn position-relative">
-                <a class="logout" href="LoginPage.html"><i class = "fa fa-caret-down"></i></a>
+             
+            <a id="nav" class="position-relative" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">  <button type = "button" class = "btn position-relative">
+            <i class = "fa fa-caret-down"></i>
                 <span class = "position-absolute top-0 start-100 translate-middle badge bg-primary"></span>
-            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </button></a>
         </div>
         <div class="sub-menu-wrap">
             <div class="sub-menu">
@@ -72,6 +84,8 @@
     </div>
 </nav>
 </nav>
+<!-- end of navbar -->
+
  <div class="profile">
     
 <img src="Images/profile pic.jpg" class="profile">
@@ -83,6 +97,7 @@
 
 </div> 
 <hr>
+<!-- header -->
 <header id="header" class="vh-100 carousel slide" data-bs-ride="carousel" style="padding-top:104px">
     <div class="container h-100 d-flex align-items-center carousel-inner">
         <div class="text-center carousel-item active">
@@ -101,7 +116,8 @@
     <button class="carousel-control-prev" type="button" data-bs-target="#header" data-bs-slide ="prev"><span class="carousel-control-prev-icon"></span></button>
     <button class="carousel-control-next" type="button" data-bs-target="#header" data-bs-slide ="next"><span class="carousel-control-next-icon"></span></button>
 </header>
-
+<!-- end of header -->
+<!-- collection -->
 <section id = "collection" class = "py-5">
     <div class = "container">
         <div class = "title text-center">
@@ -264,6 +280,9 @@
         </div>
     </div>
 </section>
+<!-- end of collection -->
+
+<!-- Top Brands -->
 <section id = "top brands" class = "py-5">
     <div class = "container">
         <div class = "title text-center">
@@ -281,7 +300,7 @@
         </div>
 
 </section>
-
+<!-- end of Collection -->
 
 <!-- popular -->
     <section id  = "popular" class = "py-5">
