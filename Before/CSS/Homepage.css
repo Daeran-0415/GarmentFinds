@@ -2,72 +2,295 @@
 :root{
     --lg-font: 'Kaisei Tokumin', serif;
     --sm-font: 'Poppins', sans-serif;
+    --pink: #e5345b;
 }
-*
-{
+
+/* log-in page*/
+
+div.login_box{
+    font-size:15px;
+    margin: auto;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: white;
+    width: 50%;
+    padding-bottom: 50px;
+    border-radius: 3px;
+  
+}
+h1.login{
+    font-size:60px !important;
+    margin: 1%!important;
+}
+a.login{
+    color: blue;
+}
+a.login:hover{
+    color:skyblue;
+}
+
+img.login{
+    max-width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+form.login input{
+    width: 60%;
+    border:none;
+    border: 1px solid gray;
+    border-radius: 30px;
+    outline: none;
+}
+label.login{
+    text-align: left!important;
+    font-size: 20px;
+    margin-left: 21%;
+}
+input.login[type="email"] {
+    padding: 10px 5px 5px 5px;
+    display: block;
+    margin : 0 auto;
+}
+input[type="password"].login {
+    padding: 5px 5px 5px 5px;
+    display: block;
+    margin : 0 auto;
+}
+#Login{
+    width: 10%;
+    border: 0;
+    line-height: 2;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px #000;
+    background-color: #e3dad4;
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+#Login:hover {
+    background-color:#d7cfcf;
+}
+#Login:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+/* sign-up*/
+
+h1.signup{
+    font-size:  50px;
+    text-align: center;
+    padding-top: 15px;
+    margin: 0%;
+    
+}
+p.signup{
+    margin:0%;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+}
+.para-2{
+    text-align: center;
+    font-size: 15px;
+    margin-top: -30px;
+}
+a.signup{
+    color:blue;
+}
+a.signup:hover{
+    color:skyblue;
+}
+div.Sign_Up {
+    width: 360px;
+    height: 620px;
+    margin: auto;
+    background-color: white;
+    border-radius: 3px;
+}
+form.signup{
+    width: 300px;
+    margin-left: 20px;
+}
+form label{
+    display:flex;
+    margin-top: 20px;
+    font-size:15px;
+    
+}
+form input.signup{
+    width: 100%;
+    padding: 7px;
+    border:none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+}
+input[type="text"].signup {
+    padding: 5px 5px 5px 5px;
+    display: block;
+    margin : 0 auto;
+    border-radius: 30px;  
+}
+input[type="email"].signup{
+    padding: 5px 5px 5px 5px;
+    display: block;
+    margin : 0 auto;
+    border-radius: 30px;  
+}
+input[type="password"].signup {
+    padding: 5px 5px 5px 5px;
+    display: block;
+    margin : 0 auto;
+    border-radius: 30px;  
+}
+input[type=button].SignUp{
+    width: 320px;
+    border: 0;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: #e3dad4;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    line-height: 1px;
+    padding: 0 20px;
+   
+    text-align: center;
+   
+   
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+input[type=button].SignUp:hover {
+    background-color:#d7cfcf;
+}
+input[type=button].SignUp:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+@media screen and (max-width:500px){
+    h1.signup{
+        font-size:  25px;
+        text-align: center;
+        margin: 0%;
+    }
+    .topnav .login-container {
+        float: none;
+      }
+      .topnav a, .topnav input[type=text], .topnav .login-container button {
+        float: none;
+        display: block;
+        text-align: left;
+        width: 90%;
+        margin: 0;
+        padding: 14px;
+      }
+      .topnav input[type=text] {
+        border: 1px solid #ccc;  
+      }  
+}
+a.signup:link{
+       font-size: 15px;
+        text-align: center;
+
+}
+/*about us*/
+.wrapper{
+    margin-top: 10%;
+    margin-right: 30px;
+}
+
+.ourteam{
+
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 100px;
+    font-size: 400%;
+}
+
+
+.wrapper h1{
+
+    font-size: 52px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.team{
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+
+}
+
+.team .team_member{
+    background-color: white;
+    margin: 8px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    color: #8e8b8b;
+    position: relative;
+    padding-bottom: 50px;
+}
+
+.team .team_member h3{
+    color: #000000;
+    font-size: 26px;
+    margin-top: 50px;
+}
+
+.team .team_member p.role{
+    color: black;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 12px 0;
+}
+
+img.team_image{
+    transform: translateX(-50%);
+    position: absolute;
+    top: -50px;
+    height: 100px;
+    border-radius: 50%;
+    width: 100px;
+    margin-right: 7px;
+    margin-bottom: 15px;
+    background: #fff;
+}
+*{
     padding:0;
     margin:0;
     box-sizing:border-box;
 }
-.menu-bar
-{
-    background: rgb(83, 79, 22); 
-    text-align: center;
-    
-}
-.menu-bar ul
-{
-    display: inline-flex;
-    list-style: none;
-    color: #fff;
-}
-.menu-bar ul
-h1{
-    font-size:  60px;
-    text-align: center;
-    margin: 0%;
-}
-.menu-bar ul li
-{
-    width: 215px;
-    margin:10px;
-    font-size: 20px;
-}
-.menu-bar ul li a
-{
-    text-decoration: none;
-    color: #fff;
-}
-.active, .menu-bar ul li:hover
-{
-        background:rgb(112, 94, 34);
-        border-radius: 3px;
-}
-h2{
-    font-size:20px;
-    margin:0%;
-    margin-top:px;
-}
-h3{
-    font-size:25px;
-    margin-top:4%; 
-    
-}
-p{
-    font-size:15px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin:0%;
-    float: left;
-}
-a{
-    color:black;
-}
+/* profile */
 hr{
    border-top:3px solid;
 }
 div.profile{
- margin-top: 15px;
+ margin-top: 130px;
  margin-bottom: 65px;
+ margin-left: 50px;
 }
 img.profile{
     float: left;
@@ -75,6 +298,9 @@ img.profile{
     width:100px;
     margin-right: 7px;
     margin-bottom: 15px;
+}
+p.profile{
+    font-size: large!important;
 }
 i.fa-solid{
     font-size: 30px;
@@ -88,26 +314,17 @@ i.fa-regular{
 }
 input[type="text"] {
     padding: 5px 5px 5px 5px;
-    width:50%;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    display: block;
+    width:90%;
+
     margin-left: 5%;
 
 }
-.search{
+input.search{
     border-radius: 25px;
     height: 50px;
-    margin-top: 5px;
-    margin-bottom:5px;
+    margin-top: 50px;
+    margin-bottom: 50px;
    
-}
-img.New1,.New2{
-margin:15px;
-border-radius: 50px;
-display:inline;
-height:250px;
-width:300px;
-
 }
 img.Top1{
     margin:15px;
@@ -115,22 +332,14 @@ img.Top1{
     width:150px;  
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700&family=Poppins:wght@300;400;500&display=swap');
-
-:root{
-    --lg-font: 'Kaisei Tokumin', serif;
-    --sm-font: 'Poppins', sans-serif;
-    --pink: #e5345b;
-}
 body{
     font-family: var(--sm-font);
 }
 
 /* button */
 .bg-primary{
-    background-color: var(--pink)!important;
+    background-color: blue!important;
 }
-
 .btn:not(.nav-btns button){
     background-color: #fff;
     color: rgb(85, 85, 85);
@@ -139,38 +348,58 @@ body{
     border: 1px solid rgb(85, 85, 85);
 }
 .btn:not(.nav-btns button):hover{
-    background-color: var(--pink);
+    background-color: #e3dad4;
     color: #fff;
-    border-color: var(--pink);
+    color:var(--pink)!important;
 }
 
 /* text color */
 .text-primary{
-    color: var(--pink)!important;
+    color:var(--pink)!important;
 }
 
 /* navbar */
 .navbar{
+    background-color: #e3dad4;
     -webkit-box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
             box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
+          
 }
 .navbar-brand img{
-    width: 30px;
+    width: 100px;
 }
 .navbar-brand span{
     letter-spacing: 2px;
     font-family: var(--lg-font);
 }
 .nav-link:hover{
-    color: var(--pink)!important;
+    color:var(--pink)!important;
 }
 .nav-item{
     border-bottom: 0.5px solid rgba(0, 0, 0, 0.05);
 }
-
+#nav{
+    color: rgb(85, 85, 85);
+}
+.dropdown-menu{
+   max-height: 200px;
+   overflow-y: scroll;
+}
 /* header */
 #header{
-    background: url(../images/banner-img-1.jpg) top/cover no-repeat;
+    background: url(../Images/image2.png) top/cover no-repeat;
+}
+.btn:not(.nav-btns button){
+    background-color: #fff;
+    color: rgb(85,85,85);
+    padding: 10px 28px;
+    border-radius: 25px;
+    border: 1px solid rgb(85,85,85);
+}
+.btn:not(.nav.btns button):hover{
+    background-color: #e3dad4;
+    color:#fff;
+    color:var(--pink)!important;
 }
 .carousel-inner h1{
     font-size: 60px;
@@ -179,17 +408,16 @@ body{
 .carousel-item .btn{
     border-color: #fff!important;
 }
-.carousel-item .btn:hover{
-    border-color: var(--pink)!important;
+.carousel-item btn:hover{
+    color:var(--pink)!important;
 }
 
-/* title */
 .title h2::before{
     position: absolute;
     content: "";
     width: 4px;
     height: 50px;
-    background-color: var(--pink);
+    background-color: #e3dad4;
     left: -20px;
     top: 50%;
     -webkit-transform: translateY(-50%);
@@ -197,11 +425,11 @@ body{
             transform: translateY(-50%);
 }
 
-/* collection */
+
 .active-filter-btn{
-    background-color: var(--pink)!important;
+    color:var(--pink)!important;
     color: #fff!important;
-    border-color: var(--pink)!important;
+    color:var(--pink)!important;
 }
 .filter-button-group .btn:hover{
     color: #fff!important;
@@ -249,11 +477,6 @@ body{
 }
 .offers-content .btn{
     border-color: transparent!important;
-}
-
-/* about */
-#about{
-    background-color: rgba(179, 179, 179, 0.05);
 }
 
 /* newsletter */
