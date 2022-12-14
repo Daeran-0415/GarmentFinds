@@ -1,18 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
-<link rel="stylesheet" href="CSS/Homepage.css">
-<script src="https://kit.fontawesome.com/6d9a059933.js" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<title>GarmentFinds</title>
-<head>
-    <meta charset="UTF-8">
-    <title>GarmentFindsTeam</title>
-</head>
-<!DOCTYPE html>
-<html lang="en">
 <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,139 +7,228 @@
     <link rel="stylesheet" href="css/Homepage.css">
     <script src="https://kit.fontawesome.com/6d9a059933.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <title>GarmentFinds</title>
-<body style="background-color: #e3dad4;">
-<!-- navbar -->
+    <body>
+    <!-- navbar -->
 
-<nav class="navbar navbar-expand-1g navbar-dark p-md-3">
-    <nav class = "navbar navbar-expand-lg navbar-light py-4 fixed-top">
-        <div class = "container">
-            <a class = "navbar-brand d-flex justify-content-between align-items-center order-lg-0" href = "HomepageGuest.html">
-            <img src="IMAGES/logo.jpg" class="logo">
-        </a>
-            <div class = "order-lg-2 nav-btns">
-                <button type = "button" class = "btn position-relative">
-                    <i class = "fa fa-shopping-cart"></i>
-                    <span class = "position-absolute top-0 start-100 translate-middle badge bg-secondary">5</span>
-                </button>
-                <button type = "button" class = "btn position-relative">
-                    <i class = "fa fa-truck-fast"></i>
-                    <span class = "position-absolute top-0 start-100 translate-middle badge  bg-secondary">3</span>
-                </button>
-                <button type = "button" class = "btn position-relative">
-                    <i class = "fa fa-heart"></i>
-                    <span class = "position-absolute top-0 start-100 translate-middle badge  bg-secondary">2</span>
-                </button>
-    
-                <a id="nav" class="position-relative" href="#" role="button" data-bs-toggle = "dropdown" aria-expanded="false"> 
-                     <button type = "button" class = "btn   position-relative">
-                <i class = "fa fa-caret-down"></i>
-                    <span class = "position-absolute top-0 start-100 translate-middle badge bg-primary"></span>
+    <nav class="navbar navbar-expand-1g navbar-dark p-md-3">
+        <nav class = "navbar navbar-expand-lg navbar-light py-4 fixed-top">
+            <div class = "container">
+                <a class = "navbar-brand d-flex justify-content-between align-items-center order-lg-0" href = "HomepageGuest.html">
+                <img src="IMAGES/logo.jpg" class="logo">
+            </a>
+                <div class = "order-lg-2 nav-btns">
+                    <button type = "button" class = "btn position-relative">
+                        <i class = "fa fa-shopping-cart"></i>
+                        <span class = "position-absolute top-0 start-100 translate-middle badge bg-navigation">5</span>
+                    </button>
+                    <button type = "button" class = "btn position-relative">
+                        <i class = "fa fa-truck-fast"></i>
+                        <span class = "position-absolute top-0 start-100 translate-middle badge  bg-navigation">3</span>
+                    </button>
+                    <button type = "button" class = "btn position-relative">
+                        <i class = "fa fa-heart"></i>
+                        <span class = "position-absolute top-0 start-100 translate-middle badge  bg-navigation">2</span>
+                    </button>
         
-                    <ul class = "dropdown-menu dropdown-menu-lg-end" >
-                        <li><hr class="dropdown-divider"></li>
-                        <li  class = " px-1 py-2"><a>Profile</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="LoginPage.html">Log In</a></li>
-                        <li ><hr class="dropdown-divider"></li>
-                        <li  class = " px-1 py-2">Categories</li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item px-1 py-2" href="HomepageGuest Men.html">Men</a></li>
-                        <li ><a class="dropdown-item px-1 py-2" href="HomepageGuest Women.html">Women</a></li>
-                        <li ><a class="dropdown-item px-1 py-2" href="HomepageGuest Shirt.html">Shirt</a></li>
-                        <li><a class="dropdown-item px-1 py-2" href="HomepageGuest Shorts.html">Shorts</a></li>
-                        <li><a class="dropdown-item px-1 py-2" href="HomepageGuest Pants.html">Pants</a></li>
-                        <li><a class="dropdown-item px-1 py-2" href="HomepageGuest Jacket.html">Jacket</a></li>
-                        <li><a class="dropdown-item px-1 py-2" href="about-us guest.html">About Us</a></li>
-                    </ul>
-                </button></a>
+                    <a id="nav" class="position-relative" href="#" role="button" data-bs-toggle = "dropdown" aria-expanded="false"> 
+                         <button type = "button" class = "btn   position-relative">
+                    <i class = "fa fa-caret-down"></i>
+                        <span class = "position-absolute top-0 start-100 translate-middle badge bg-navigation"></span>
+                        <ul class = "dropdown-menu dropdown-menu-lg-end" >
+                            <li><hr class="dropdown-divider"></li>
+                            <li  class = " px-1 py-2"><a>Profile</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="LoginPage.html">Log In</a></li>
+                            <li ><hr class="dropdown-divider"></li>
+                            <li  class = " px-1 py-2">Categories</li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item px-1 py-2" href="HomepageGuest Men.html">Men</a></li>
+                            <li ><a class="dropdown-item px-1 py-2" href="HomepageGuest Women.html">Women</a></li>
+                            <li ><a class="dropdown-item px-1 py-2" href="HomepageGuest Shirt.html">Shirt</a></li>
+                            <li><a class="dropdown-item px-1 py-2" href="HomepageGuest Shorts.html">Shorts</a></li>
+                            <li><a class="dropdown-item px-1 py-2" href="HomepageGuest Pants.html">Pants</a></li>
+                            <li><a class="dropdown-item px-1 py-2" href="HomepageGuest Jacket.html">Jacket</a></li>
+                            <li><a class="dropdown-item px-1 py-2" href="about-us guest.html">About Us</a></li>
+                        </ul>
+                    </button></a>
+                </div>
+                <div class="sub-menu-wrap">
+                    <div class="sub-menu">
+                        <div class="user-info">
+                            
+                        </div>
+                    </div>
+                </div>
+        
+                <button class = "navbar-toggler border-0" type = "button" data-bs-toggle = "collapse" data-bs-target = "#navMenu">
+                    <span class = "navbar-toggler-icon"></span>
+                </button>
+        
+                <div class = "collapse navbar-collapse order-lg-1" id = "navMenu">
+                    <ul class = "navbar-nav mx-auto text-center">
+                        <li class = "nav-item px-1 py-2">
+                            <a class = "nav-link text-uppercase text-dark" href = "#about-us">About us</a>
+                        </li>
+                        <li class = "nav-item px-2 py-2">
+                            <a class = "nav-link text-uppercase text-dark" href = "#newsletter">newsletter</a>
+                        </li>
+                        </ul>
+                </div>
             </div>
-            <div class="sub-menu-wrap">
-                <div class="sub-menu">
-                    <div class="user-info">
+        </nav>
+        </nav>
+        <!-- end of navbar -->
+    <!-- about us-->
+    <section id="about-us"class="about-us">
+        <div class="container">
+            <h1>About Us</h1>
+            <p class="text-center">Know about the creators of this website</p>
+            <div class="row">
+
+                <div class="col-md-4 text-center">
+                    <div class="profile">
+                    <img src="Images/Daniel.jpg" alt="daniel_img" class="user">
+                        <blockquote class="bq">Lorem ipsum dolor sit amet consectetur adipisicing 
+                            elit. Ipsum, optio recusandae perferendis quos alias aspernatur 
+                            consectetur quod ex quasi temporibus delectus sapiente nemo a. 
                         
+                        </blockquote>
+                        <h3>Daniel Aeron Jan Daño <br><span>Team-Leader at GarmentFinds</span></h3>
                     </div>
                 </div>
-            </div>
-    
-            <button class = "navbar-toggler border-0" type = "button" data-bs-toggle = "collapse" data-bs-target = "#navMenu">
-                <span class = "navbar-toggler-icon"></span>
-            </button>
-    
-            <div class = "collapse navbar-collapse order-lg-1" id = "navMenu">
-                <ul class = "navbar-nav mx-auto text-center">
-                    <li class = "nav-item px-1 py-2">
-                        <a class = "nav-link text-uppercase text-dark" href = "#header">home</a>
-                    </li>
-                    <li class = "nav-item px-2 py-2">
-                        <a class = "nav-link text-uppercase text-dark" href = "#collection">collection</a>
-                    </li>
-                    <li class = "nav-item px-2 py-2">
-                        <a class = "nav-link text-uppercase text-dark" href = "#top brands">top brands</a>
-                    </li>
-                    <li class = "nav-item px-2 py-2">
-                        <a class = "nav-link text-uppercase text-dark" href = "#popular">popular</a>
-                    </li>
-                    <li class = "nav-item px-2 py-2">
-                        <a class = "nav-link text-uppercase text-dark" href = "#newsletter">newsletter</a>
-                    </li>
-                    </ul>
-            </div>
-        </div>
-    </nav>
-    </nav>
-    <!-- end of navbar -->
 
-<section id = "top brands" class = "py-5">
-    <div class = "container">
-        <div class = "title text-center">
-            <h1 class = "position-relative d-inline-block">Our Team</h1>
-        </div>
-            <div class="wrapper">
-
-                <div class="team">
-                    <div class="team_member">
-                        <img src="Images/DANIEL.jpg" class="team_image" alt="DANIEL_IMG">
-                        <h3>Daniel Aeron Jan Daño</h3>
-                        <p class="role">TEAM LEADER</p>
-                        <p>Organizer</p>
-                        <p>Log-in page Layout</p>
-                        <p>and Design</p>
-                        <p>Homepage Layout</p>
-                        <p>and Design</p>
-                       
-                    </div>
-                    <div class="team_member">
-                        <img src="Images/TONNETTE.jpg" class="team_image" alt="TONNETTE_IMG">
-                        <h3>Mary Antoinnette Bautista</h3>
-                        <p class="role">TEAM MEMBER</p>
-                        <p>Log-in page Layout</p>
-                        <p>Homepage Layout</p>
-                        <p>About-us Designer</p>
+                <div class="col-md-4 text-center">
+                    <div class="profile">
+                    <img src="Images/TONNETTE.jpg" alt="tonnette_img" class="user">
+                        <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing 
+                            elit. Ipsum, optio recusandae perferendis quos alias aspernatur 
+                            consectetur quod ex quasi temporibus delectus sapiente nemo a. 
                     
-                    </div>
-                    <div class="team_member">
-                        <img src="Images/AU.jpg" class="team_image" alt="AU_IMG">
-                        <h3>AU Bumanglag</h3>
-                        <p class="role">TEAM MEMBER</p>
-                        <p>Categories Designer</p>
-                        <p>Homepage Designer</p>
-                        <p>Logo Designer</p>
-                    </div>
-                    <div class="team_member">           
-                        <img src="Images/JR.jpg" class="team_image" alt="DANIEL_IMG">
-                        <h3>John Rey De Torres</h3>
-                        <p class="role">TEAM MEMBER</p>
-                        <p>Logo Designer</p>
-                        <p>Presentor</p>
+                        </blockquote>
+                        <h3>Mary Antoinnette Bautista <br><span>Team-Member at GarmentFinds</span> </h3>
                     </div>
                 </div>
+
+                <div class="col-md-4 text-center">
+                    <div class="profile">
+                    <img src="Images/JohnRey.jpg" alt="johnrey_img" class="user">
+                        <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing 
+                            elit. Ipsum, optio recusandae perferendis quos alias aspernatur 
+                            consectetur quod ex quasi temporibus delectus sapiente nemo a. 
+                    
+                        </blockquote>
+                        <h3>John Rey De Torres <br><span>Team-Member at GarmentFinds</span> </h3>
+                    </div>
+                </div>
+
+                <div class="col-md-4 text-center">
+                    <div class="profile">
+                    <img src="Images/AU.jpg" alt="au_img" class="user">
+                        <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing 
+                            elit. Ipsum, optio recusandae perferendis quos alias aspernatur 
+                            consectetur quod ex quasi temporibus delectus sapiente nemo a. 
+                        </blockquote>
+                        <h3>AU Bumanglag <br><span>Team-Member at GarmentFinds</span> </h3>
+                    </div>
+                </div>
+
+            </div>
         </div>
+    </section>
+      <!-- end of about us-->
+      <!-- Start of Newsletter-->
+<section id = "newsletter" class ="py-5">
+    <div cass ="container">
+        <div class ="d-flex flex-column align-items-center
+        justify-content-center">
+            <div class = "title text-center pt-3 pb-5">
+                <h2 class ="position-relative d-inline-block ms-4">
+                    Newsletter Subscription </h2>
+            </div>
 
+            <p class ="text-center text-muted"> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Voluptates exercitationem nulla maxime tempora! 
+                Voluptatibus eum, non voluptatem quo libero, accusantium optio nesciunt voluptatum voluptas,
+                 temporibus minima sapiente beatae sed architecto.</p>
+                <div class = "input-group mb-3 mt-3">
+                    <input type ="text" class ="" placeholder="Enter Your Email ...">
+                    <button class="btn btn-primary" type = "submit">Subscribe </button>
+                </div>
+
+            </div>
+    </div>
 </section>
-</div>
+<!-- End of Newsletter-->
+     <!-- footer -->
+ <footer class = "bg-dark py-5">
+    <div class = "container">
+        <div class = "row text-white g-4">
+            <div class = "col-md-6 col-lg-3">
+                <a class = "text-uppercase text-decoration-none brand text-white" href = "index.html">Attire</a>
+                <p class = "text-white text-muted mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum mollitia quisquam veniam odit cupiditate, ullam aut voluptas velit dolor ipsam?</p>
+            </div>
 
+            <div class = "col-md-6 col-lg-3">
+                <h5 class = "fw-light mb-3">Contact Us</h5>
+                <div class = "d-flex justify-content-start align-items-start my-2 text-muted">
+                    <span class = "me-3">
+                        <i class = "fas fa-map-marked-alt"></i>
+                    </span>
+                    <span class = "fw-light">
+                        Saint Louis University
+                    </span>
+                </div>
+                <div class = "d-flex justify-content-start align-items-start my-2 text-muted">
+                    <span class = "me-3">
+                        <i class = "fas fa-envelope"></i>
+                    </span>
+                    <span class = "fw-light">
+                        garmentfinds.support@gmail.com
+                    </span>
+                </div>
+                <div class = "d-flex justify-content-start align-items-start my-2 text-muted">
+                    <span class = "me-3">
+                        <i class = "fas fa-phone-alt"></i>
+                    </span>
+                    <span class = "fw-light">
+                        +9786 6776 236
+                    </span>
+                </div>
+            </div>
 
+            <div class = "col-md-6 col-lg-3">
+                <h5 class = "fw-light mb-3">Follow Us</h5>
+                <div>
+                    <ul class = "list-unstyled d-flex">
+                        <li>
+                            <a href = "#" class = "text-white text-decoration-none text-muted fs-4 me-4">
+                                <i class = "fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#" class = "text-white text-decoration-none text-muted fs-4 me-4">
+                                <i class = "fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#" class = "text-white text-decoration-none text-muted fs-4 me-4">
+                                <i class = "fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#" class = "text-white text-decoration-none text-muted fs-4 me-4">
+                                <i class = "fab fa-pinterest"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- end of footer -->
 <script src="script/jquery-3.6.1.js"></script>
 <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
 <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>

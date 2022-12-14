@@ -239,75 +239,93 @@ a.signup:link{
 
 
 /*about us*/
-.wrapper{
-    margin-top: 10%;
-    margin-right: 30px;
+.about-us{
+    margin: 100px auto;
 }
 
-.ourteam{
-
+.about-us h1{
     text-align: center;
-    margin-top: 5%;
-    margin-left: 100px;
-    font-size: 400%;
-}
-
-
-.wrapper h1{
-
-    font-size: 52px;
-    margin-bottom: 60px;
-    text-align: center;
-}
-
-.team{
-    display: flex;
-    text-align: center;
-    width: auto;
-    justify-content: center;
-
-}
-
-.team .team_member{
-    background-color: white;
-    margin: 8px;
-    margin-bottom: 50px;
-    width: 300px;
-    padding: 20px;
-    line-height: 20px;
-    color: #8e8b8b;
-    position: relative;
-    padding-bottom: 50px;
-}
-
-.team .team_member h3{
+    font-weight: bold;
     color: #000000;
-    font-size: 26px;
-    margin-top: 50px;
-}
-
-.team .team_member p.role{
-    color: black;
-    font-size: 12px;
+    padding-bottom: 10px;
     text-transform: uppercase;
-    margin: 12px 0;
 }
 
-img.team_image{
-    transform: translateX(-50%);
-    position: absolute;
-    top: -50px;
-    height: 100px;
-    border-radius: 50%;
-    width: 100px;
-    margin-right: 7px;
-    margin-bottom: 15px;
-    background: #fff;
+.about-us h1::after{
+    content: '';
+    background: var(--pink);
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 10px auto 5px;
 }
-*{
-    padding:0;
-    margin:0;
-    box-sizing:border-box;
+
+.profile img{
+    top: -60px;
+    left: calc(50% - 60px);
+    border: 10px solid white;
+}
+
+.about-us .row{
+    margin-top: 30px;
+}
+
+.col-md-4{
+    margin: 40px auto;
+}
+
+.profile{
+    padding: 70px 10px 10px;
+    background-color: #efefef;
+}
+
+.user{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%
+}
+
+.profile h3{
+    font-size: 20px;
+    margin-top: 15px;
+    color: #795d4a;
+}
+
+span{
+    font-size: 12px;
+    color: #c0977b;
+}
+
+blockquote{
+    font-size: 16px;
+    line-height: 30px;
+}
+
+blockquote::before{
+    content: '\94';
+    font-size: 50px;
+    position: relative;
+    color: #c0977b;
+    line-height: 20px;
+    bottom: -15px;
+    right: 5px;
+}
+
+blockquote::after{
+    content: '\94';
+    font-size: 50px;
+    position: relative;
+    color: #c0977b;
+    line-height: 20px;
+    bottom: -15px;
+    right: 5px;
+}
+
+.profile:hover{
+    background-color: #e3dad4;
+    box-shadow: 0 0 15px 5px rgba (0,0,0,0.2);
+    cursor: pointer;
+    transition: 0.5s;
 }
 /*homepage*/
 
@@ -316,10 +334,10 @@ body{
 }
 
 /* button */
-.bg-primary{
+.bg-navigation{
     background-color: var(--pink)!important;
 }
-.bg-secondary{
+.bg-collection{
     background-color:var(--pink)!important;
 }
 .btn:not(.nav-btns button){
@@ -376,7 +394,7 @@ body{
 .dropdown-item{
     border-bottom: 0.5px solid rgba(0, 0, 0, 0.05);
 }
-img.profile{
+img.profilepic{
     border-radius: 50%;
     width: 30px;
 }
@@ -459,11 +477,16 @@ img.Top1{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
+    max-width: 60%;
+    height: 30vw;
+    padding: 50px;
 }
+
 div.Top{
    background-color:#e3dad4;
 }
+
+
 
 
 
