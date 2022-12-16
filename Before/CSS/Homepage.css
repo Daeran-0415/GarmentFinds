@@ -71,8 +71,8 @@ input[type="password"].login {
     text-shadow: 1px 1px 1px #000;
     background-color: #e3dad4;
     background-image: linear-gradient(to top left,
-                                      rgba(0, 0, 0, .2),
-                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(144, 130, 113, 0.945),
+                                      rgba(125, 119, 81, 0.2) 30%,
                                       rgba(0, 0, 0, 0));
     box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
                 inset -2px -2px 3px rgba(0, 0, 0, .6);
@@ -87,131 +87,130 @@ input[type="password"].login {
 
 /* sign-up*/
 
-h1.signup{
-    font-size:  50px;
-    text-align: center;
-    padding-top: 15px;
-    margin: 0%;
-    
+/* Import Google font - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
-p.signup{
-    margin:0%;
-    text-align: center;
-    padding-top: 20px;
-    font-size: 15px;
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: #e3dad4;
 }
-.para-2{
-    text-align: center;
-    font-size: 15px;
-    margin-top: -30px;
+.container {
+  position: relative;
+  max-width: 700px;
+  width: 100%;
+  background: #fff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
-a.signup{
-    color:blue;
+.container header {
+  font-size: 1.5rem;
+  color: #333;
+  font-weight: 500;
+  text-align: center;
 }
-a.signup:hover{
-    color:skyblue;
+.container .form {
+  margin-top: 30px;
 }
-div.Sign_Up {
-    width: 360px;
-    height: 620px;
-    margin: auto;
-    background-color: white;
-    border-radius: 3px;
+.form .input-box {
+  width: 100%;
+  margin-top: 20px;
 }
-form.signup{
-    width: 300px;
-    margin-left: 20px;
+.input-box label {
+  color: #333;
 }
-form label{
-    display:flex;
-    margin-top: 20px;
-    font-size:15px;
-    
+.form :where(.input-box input, .select-box) {
+  position: relative;
+  height: 50px;
+  width: 100%;
+  outline: none;
+  font-size: 1rem;
+  color: #707070;
+  margin-top: 8px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 0 15px;
 }
-form input.signup{
-    width: 100%;
-    padding: 7px;
-    border:none;
-    border: 1px solid gray;
-    border-radius: 6px;
-    outline: none;
+.input-box input:focus {
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
 }
-input[type="text"].signup {
-    padding: 5px 5px 5px 5px;
-    display: block;
-    margin : 0 auto;
-    border-radius: 30px;  
+.form .column {
+  display: flex;
+  column-gap: 15px;
 }
-input[type="email"].signup{
-    padding: 5px 5px 5px 5px;
-    display: block;
-    margin : 0 auto;
-    border-radius: 30px;  
+.form .gender-box {
+  margin-top: 20px;
 }
-input[type="password"].signup {
-    padding: 5px 5px 5px 5px;
-    display: block;
-    margin : 0 auto;
-    border-radius: 30px;  
+.gender-box h3 {
+  color: #333;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 8px;
 }
-input[type=button].SignUp{
-    width: 320px;
-    border: 0;
-    height: 35px;
-    margin-top: 20px;
-    border: none;
-    background-color: #e3dad4;
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-    line-height: 1px;
-    padding: 0 20px;
-   
-    text-align: center;
-   
-   
-    text-shadow: 1px 1px 1px #000;
-    border-radius: 10px;
+.form :where(.gender-option, .gender) {
+  display: flex;
+  align-items: center;
+  column-gap: 50px;
+  flex-wrap: wrap;
+}
+.form .gender {
+  column-gap: 5px;
+}
+.gender input {
+  accent-color: rgb(130, 106, 251);
+}
+.form :where(.gender input, .gender label) {
+  cursor: pointer;
+}
+.gender label {
+  color: #707070;
+}
+.address :where(input, .select-box) {
+  margin-top: 15px;
+}
+.select-box select {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border: none;
+  color: #707070;
+  font-size: 1rem;
+}
+.form button {
+  height: 55px;
+  width: 100%;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 30px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background: rgb(130, 106, 251);
+}
+.form button:hover {
+  background: rgb(88, 56, 250);
+}
+/*Responsive*/
+@media screen and (max-width: 500px) {
+  .form .column {
+    flex-wrap: wrap;
+  }
+  .form :where(.gender-option, .gender) {
+    row-gap: 15px;
+  }
+}
 
-    background-image: linear-gradient(to top left,
-                                      rgba(0, 0, 0, .2),
-                                      rgba(0, 0, 0, .2) 30%,
-                                      rgba(0, 0, 0, 0));
-    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
-                inset -2px -2px 3px rgba(0, 0, 0, .6);
-}
-input[type=button].SignUp:hover {
-    background-color:#d7cfcf;
-}
-input[type=button].SignUp:active {
-    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
-                inset 2px 2px 3px rgba(0, 0, 0, .6);
-}
-@media screen and (max-width:500px){
-    h1.signup{
-        font-size:  25px;
-        text-align: center;
-        margin: 0%;
-    }
-    .topnav .login-container {
-        float: none;
-      }
-      .topnav a, .topnav input[type=text], .topnav .login-container button {
-        float: none;
-        display: block;
-        text-align: left;
-        width: 90%;
-        margin: 0;
-        padding: 14px;
-      }
-      .topnav input[type=text] {
-        border: 1px solid #ccc;  
-      }  
-}
-a.signup:link{
-       font-size: 15px;
-        text-align: center;
 
-}
 /*about us*/
 .wrapper{
     margin-top: 10%;
