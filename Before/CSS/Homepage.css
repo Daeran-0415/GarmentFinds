@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700&family=Poppins:wght@300;400;500&display=swap');
+
 :root{
     --lg-font: 'Kaisei Tokumin', serif;
     --sm-font: 'Poppins', sans-serif;
@@ -6,30 +7,18 @@
 }
 
 /* log-in page*/
-
-div.login_box{
-    font-size:15px;
-    margin: auto;
-    text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color: white;
-    width: 50%;
-    padding-bottom: 50px;
-    border-radius: 3px;
-  
+#login{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: #e3dad4;
 }
-h1.login{
-    font-size:60px !important;
-    margin: 1%!important;
-}
-a.login{
-    color: blue;
-}
-a.login:hover{
-    color:skyblue;
-}
-
-/* log-in page*/
 
 div.login_box{
     font-size:15px;
@@ -110,132 +99,134 @@ input[type="password"].login {
 }
 
 /* sign-up*/
+#signup{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: #e3dad4;
+}
 
-h1.signup{
-    font-size:  50px;
-    text-align: center;
-    padding-top: 15px;
-    margin: 0%;
-    
+
+
+.containers {
+  position: relative;
+  max-width: 700px;
+  width: 100%;
+  background: #fff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
-p.signup{
-    margin:0%;
-    text-align: center;
-    padding-top: 20px;
-    font-size: 15px;
+.containers header {
+  font-size: 1.5rem;
+  color: #333;
+  font-weight: 500;
+  text-align: center;
 }
-.para-2{
-    text-align: center;
-    font-size: 15px;
-    margin-top: -30px;
+.containers .form {
+  margin-top: 30px;
+}
+.forms .input-boxes {
+  width: 98%;
+  margin-top: 20px;
+}
+label.input-boxes  {
+  color: #333;
+}
+.forms :where(.input-boxes input, .select-boxes) {
+  position: relative;
+  height: 50px;
+  width: 96%;
+  outline: none;
+  font-size: 1rem;
+  color: #707070;
+  margin-top: 8px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 0 15px;
+}
+.input-boxes input:focus {
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+.forms .columns {
+  display: flex;
+  column-gap: 15px;
+}
+.forms .gender-box {
+  margin-top: 20px;
+}
+.gender-boxes h3 {
+  color: #333;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+.forms :where(.gender-option, .gender) {
+  display: flex;
+  align-items: center;
+  column-gap: 50px;
+  flex-wrap: wrap;
+}
+.forms .gender {
+  column-gap: 5px;
+}
+.gender input {
+  accent-color: rgb(130, 106, 251);
+}
+.forms :where(.gender input, label.gender ) {
+  cursor: pointer;
+}
+label.gender  {
+  color: #707070;
+}
+.addresses :where(input, .select-boxes) {
+  margin-top: 15px;
+}
+.select-boxes select {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border: none;
+  color: #707070;
+  font-size: 1rem;
+}
+.forms button {
+  height: 55px;
+  width: 100%;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 30px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background-color: #e3dad4;
+}
+.forms button:hover {
+    background-color:#d7cfcf;
 }
 a.signup{
-    color:blue;
+    color: blue;
 }
 a.signup:hover{
     color:skyblue;
 }
-div.Sign_Up {
-    width: 360px;
-    height: 620px;
-    margin: auto;
-    background-color: white;
-    border-radius: 3px;
+/*sign-up Responsive*/
+@media screen and (max-width: 500px) {
+  .forms .columns {
+    flex-wrap: wrap;
+  }
+  .forms :where(.gender-option, .gender) {
+    row-gap: 15px;
+  }
 }
-form.signup{
-    width: 300px;
-    margin-left: 20px;
-}
-form label{
-    display:flex;
-    margin-top: 20px;
-    font-size:15px;
-    
-}
-form input.signup{
-    width: 100%;
-    padding: 7px;
-    border:none;
-    border: 1px solid gray;
-    border-radius: 6px;
-    outline: none;
-}
-input[type="text"].signup {
-    padding: 5px 5px 5px 5px;
-    display: block;
-    margin : 0 auto;
-    border-radius: 30px;  
-}
-input[type="email"].signup{
-    padding: 5px 5px 5px 5px;
-    display: block;
-    margin : 0 auto;
-    border-radius: 30px;  
-}
-input[type="password"].signup {
-    padding: 5px 5px 5px 5px;
-    display: block;
-    margin : 0 auto;
-    border-radius: 30px;  
-}
-input[type=button].SignUp{
-    width: 320px;
-    border: 0;
-    height: 35px;
-    margin-top: 20px;
-    border: none;
-    background-color: #e3dad4;
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-    line-height: 1px;
-    padding: 0 20px;
-   
-    text-align: center;
-   
-   
-    text-shadow: 1px 1px 1px #000;
-    border-radius: 10px;
 
-    background-image: linear-gradient(to top left,
-                                      rgba(0, 0, 0, .2),
-                                      rgba(0, 0, 0, .2) 30%,
-                                      rgba(0, 0, 0, 0));
-    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
-                inset -2px -2px 3px rgba(0, 0, 0, .6);
-}
-input[type=button].SignUp:hover {
-    background-color:#d7cfcf;
-}
-input[type=button].SignUp:active {
-    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
-                inset 2px 2px 3px rgba(0, 0, 0, .6);
-}
-@media screen and (max-width:500px){
-    h1.signup{
-        font-size:  25px;
-        text-align: center;
-        margin: 0%;
-    }
-    .topnav .login-container {
-        float: none;
-      }
-      .topnav a, .topnav input[type=text], .topnav .login-container button {
-        float: none;
-        display: block;
-        text-align: left;
-        width: 90%;
-        margin: 0;
-        padding: 14px;
-      }
-      .topnav input[type=text] {
-        border: 1px solid #ccc;  
-      }  
-}
-a.signup:link{
-       font-size: 15px;
-        text-align: center;
-
-}
 
 
 /*about us*/
