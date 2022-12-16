@@ -287,7 +287,6 @@ a.signup{
     color: var(--pink);
 }
 
-}
 /*sign-up Responsive*/
 @media screen and (max-width: 500px) {
   .forms .columns {
