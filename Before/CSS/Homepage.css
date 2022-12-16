@@ -11,7 +11,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family: var(--sm-font);
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -19,83 +19,155 @@
     padding: 20px;
     background: #e3dad4;
 }
-
-div.login_box{
-    font-size:15px;
-    margin: auto;
-    text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color: white;
+section.login{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+div.imgBx{
+    position:relative;
     width: 50%;
-    padding-bottom: 50px;
-    border-radius: 3px;
-  
+    height: 100%;
 }
-h1.login{
-    font-size:60px !important;
-    margin: 1%!important;
+div.imgBx:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    background: linear-gradient(225deg,#e3dad4,#d7cfcf);
+    z-index: 1;
+    mix-blend-mode: screen;
 }
-a.login{
-    color: blue;
+div.imgBx img
+{
+position:absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+object-fit: cover;
 }
-a.login:hover{
-    color:skyblue;
+div.contentBx{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 50%;  
+ height: 100%;
 }
+div.formBx{
+    width: 75%;  
+    padding: 40px;   
+    background: rgb(255 255 255 / 0.9);
+}
+div.formBx h2{
+    color: #607d8b;  
+    font-weight: 600;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    border-bottom: 4px solid var(--pink);
+    display: inline-block;
+    letter-spacing: 1px;
+}
+div.inputBx{
+  margin-bottom: 20px;  
 
-img.login{
-    max-width: 40%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
-form.login input{
-    width: 60%;
-    border:none;
-    border: 1px solid gray;
-    border-radius: 30px;
+div.inputBx span{
+   font-size: 16px;
+   margin-bottom: 5px;
+   display: inline-block;
+  color: #607d8b;
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: 1px;
+  }
+  div.inputBx input{
+    width: 100%;
+    padding: 10px 20px;
     outline: none;
-}
-label.login{
-    text-align: left!important;
+    font-weight: 400;
+    border: 1px solid #607d8b;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #607d8b;
+    background: transparent;
+    border-radius: 30px;
+   }
+   div.inputBx input[type="button"]{
+    background: var(--pink);
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+   }
+   div.inputBx input[type="button"]:hover{
+    background:#f53677 ;
+   }
+   div.remember{
+    margin-bottom: 10px;
+    color: #607d8b;
+    font-weight: 400;
+    font-size: 14px;
+   }
+   div.inputBx p{
+    color: #607d8b;
+   }
+   div.inputBx p a{
+    color: var(--pink);
+   }
+div.formBx h3{
     font-size: 20px;
-    margin-left: 21%;
-}
-input.login[type="email"] {
-    padding: 10px 5px 5px 5px;
-    display: block;
-    margin : 0 auto;
-}
-input[type="password"].login {
-    padding: 5px 5px 5px 5px;
-    display: block;
-    margin : 0 auto;
-}
-#Login{
-    width: 10%;
-    border: 0;
-    line-height: 2;
-    padding-left: 2%;
-    padding-right: 2%;
-    font-size: 15px;
+    color:#607d8b;
     text-align: center;
-    margin-bottom: 15px;
-    margin-top: 15px;
-    color: rgb(255, 255, 255);
-    text-shadow: 1px 1px 1px #000;
-    background-color: #e3dad4;
-    background-image: linear-gradient(to top left,
-                                      rgba(0, 0, 0, .2),
-                                      rgba(0, 0, 0, .2) 30%,
-                                      rgba(0, 0, 0, 0));
-    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
-                inset -2px -2px 3px rgba(0, 0, 0, .6);
+    margin: 80px 0 10px;
+    font-weight: 500;
 }
-#Login:hover {
-    background-color:#d7cfcf;
+div.formBx .sci{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-#Login:active {
-    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
-                inset 2px 2px 3px rgba(0, 0, 0, .6);
+div.formBx .sci li{
+    list-style: none;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+@media(max-width:768px){
+div.imgBx{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+div.contentBx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+div.formBx{
+    width: 100%;
+    padding: 40px;   
+    background: rgb(255 255 255 / 0.9);
+    margin: 50px;
+}
+div.formBx h3{
+color: #607d8b;
+text-align: center;
+margin: 30px 0 10px;
+font-weight: 500;
+}
 }
 
 /* sign-up*/
@@ -103,7 +175,7 @@ input[type="password"].login {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family: var(--sm-font);
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -206,16 +278,15 @@ label.gender  {
   border: none;
   cursor: pointer;
   transition: all 0.2s ease;
-  background-color: #e3dad4;
+  background: var(--pink);
 }
 .forms button:hover {
-    background-color:#d7cfcf;
+    background:#f53677 ;
 }
 a.signup{
-    color: blue;
+    color: var(--pink);
 }
-a.signup:hover{
-    color:skyblue;
+
 }
 /*sign-up Responsive*/
 @media screen and (max-width: 500px) {
