@@ -140,7 +140,7 @@ div.formBx .sci li{
     align-items: center;
     cursor: pointer;
 }
-@media(max-width:768px){
+@media(max-width:1000px){
 div.imgBx{
     position: absolute;
     top:0;
@@ -157,7 +157,7 @@ div.contentBx{
     z-index: 1;
 }
 div.formBx{
-    width: 100%;
+    width: 90%;
     padding: 40px;   
     background: rgb(255 255 255 / 0.9);
     margin: 50px;
